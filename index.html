@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>🎵 Amit Music</h2>
+
+    <input type="text" id="songLink"
+    placeholder="Paste YouTube Link">
+
+    <button id="addSong">
+        <i class="fa-solid fa-plus"></i> Add Song
+    </button>
+
+    <input type="text"
+    id="search"
+    placeholder="Search Song...">
+
+    <ul id="playlist"></ul>
+</div>
+
+<div class="player">
+
+    <div class="player-box">
+
+        <iframe id="youtubePlayer"
+        width="100%"
+        height="420"
+        src=""
+        frameborder="0"
+        allowfullscreen>
+        </iframe>
+
+        <div class="controls">
+
+            <button id="prev">
+                <i class="fa-solid fa-backward"></i>
+            </button>
+
+            <button id="play">
+                <i class="fa-solid fa-play"></i>
+            </button>
+
+            <button id="next">
+                <i class="fa-solid fa-forward"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
